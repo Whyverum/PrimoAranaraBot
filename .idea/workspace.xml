@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680839da-ebfb-41aa-b3dc-c95e51f8d3d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/arsenal_secret2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env_example" beforeDir="false" afterPath="$PROJECT_DIR$/.env_example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PrimoAranarBot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="680839da-ebfb-41aa-b3dc-c95e51f8d3d6" name="Changes" comment="123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/core/bots.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/core/bots.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/handlers/commands/users/active.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/commands/users/active.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/handlers/secret/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/secret/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/handlers/secret/secret1.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/secret/secret1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/handlers/secret/secret2.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/secret/secret2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/utils/interesting_facts.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/utils/interesting_facts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/roles.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/roles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/loggers/logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/loggers/logs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/handlers/messages/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot/handlers/messages/default.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,14 +105,27 @@
       <option name="presentableId" value="Default" />
       <updated>1757307968095</updated>
       <workItem from="1757307969094" duration="783000" />
-      <workItem from="1757310400690" duration="12982000" />
+      <workItem from="1757310400690" duration="19876000" />
     </task>
+    <task id="LOCAL-00001" summary="123">
+      <option name="closed" value="true" />
+      <created>1757325395940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757325395940</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="123" />
+    <option name="LAST_COMMIT_MESSAGE" value="123" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1757323358286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1757329799399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
