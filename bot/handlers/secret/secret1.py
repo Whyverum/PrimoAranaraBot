@@ -11,7 +11,7 @@ router: Router = Router(name="secret_router")
 CMD: str = "secret_1"
 
 
-@router.message(F.text.lower() == "истинная цель короля всегда было мироздание")
+@router.message(F.text.casefold() == "истинная цель короля всегда было мироздание")
 @log(level='INFO', log_type=CMD.upper(), text=f"использовал команду /{CMD}")
 async def secret1_cmd(message: Message, state: FSMContext) -> None:
     """Обработчик секретов"""

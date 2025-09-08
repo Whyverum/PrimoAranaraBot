@@ -313,7 +313,7 @@ class ImportantID:
 
 class BotEdit:
     """Алиасы для настроек редактирования бота."""
-    ALLOW_PERMISSION: Final[bool] = settings.BOT_EDIT
+    ALLOW: Final[bool] = settings.BOT_EDIT
     PROJECT_NAME: Final[str] = settings.PROJECT_NAME
     NAME: Final[str] = settings.BOT_NAME
     DESCRIPTION: Final[str] = settings.BOT_DESCRIPTION

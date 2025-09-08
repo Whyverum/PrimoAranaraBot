@@ -13,7 +13,7 @@ from aiogram.types import (
 )
 from aiogram.utils.i18n import I18n, SimpleI18nMiddleware
 
-from configs.config import BotSettings, BotEdit, Webhook, Permission
+from configs.config import BotSettings, BotEdit, Webhook
 from middleware.loggers import log
 
 __all__ = ("dp", "bot", "BotInfo", "i18n")
@@ -193,7 +193,7 @@ class BotInfo:
 
     @classmethod
     @log(level="INFO", log_type="START", text="Процесс запуска бота!")
-    async def setup(cls, bots: Bot = bot, perm: bool = Permission.BOT_EDIT):
+    async def setup(cls, bots: Bot = bot, perm: bool = BotEdit.ALLOW):
         await cls.webhook(bots=bots)
         await cls.info(bots=bots)
         if perm:

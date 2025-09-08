@@ -16,7 +16,7 @@ def interesting_fact(mode: str = "факт", lists: Optional[list[str]] = None) 
     if lists is not None:
         return choice(lists)
 
-    mode = mode.lower()
+    mode = mode.casefold()
 
     if mode == "анекдот":
         source: list[str] = Lists.jokes
@@ -42,7 +42,7 @@ def get_best_response(
     :param random_phrases: список случайных фраз, если совпадений нет
     :return: строка с ответом
     """
-    normalized_text: str = user_text.lower()
+    normalized_text: str = user_text.casefold()
 
     # Перебор ключевых слов в словаре
     for _, data in responses.items():

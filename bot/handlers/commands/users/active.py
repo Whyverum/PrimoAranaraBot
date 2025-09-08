@@ -14,11 +14,11 @@ from database import db
 __all__ = ("router",)
 
 
-CMD: str = "active".lower()
+CMD: str = "active".casefold()
 router: Router = Router(name=f"{CMD}_cmd_router")
 
 
-@router.callback_query(F.data.lower() == CMD)
+@router.callback_query(F.data.casefold() == CMD)
 @router.message(Command(*COMMANDS[CMD], prefix=BotInfo.prefix, ignore_case=True))
 async def active_cmd(message: Message | CallbackQuery, state: FSMContext) -> None:
     """Обработчик команды /active"""

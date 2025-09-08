@@ -81,7 +81,7 @@ class Logger:
             # Раздельные логи по уровням
             for level_name in ['INFO', 'WARNING', 'ERROR', 'DEBUG', 'CRITICAL']:
                 logger.add(
-                    sink=log_dir / f'{level_name.lower()}.log',
+                    sink=log_dir / f'{level_name.casefold()}.log',
                     rotation='10 MB',
                     retention='7 days',
                     format=self._log_format,
